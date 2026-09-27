@@ -16,7 +16,7 @@ services:
       - key: LLM_PROVIDER
         value: groq
       - key: GROQ_MODEL
-        value: qwen/qwen3.6-27b
+        value: openai/gpt-oss-120b
       - key: WARMUP_LLM
         value: "1"
       - key: GROQ_API_KEY
